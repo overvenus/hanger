@@ -1,4 +1,8 @@
-# hanger
+# #[hanger::hook()]
+
+[![Build Status](https://travis-ci.org/overvenus/hanger.svg?branch=master)](https://travis-ci.org/overvenus/hanger)
+[![Latest Version](https://img.shields.io/crates/v/hanger.svg)](https://crates.io/crates/hanger)
+[![Documentation](https://docs.rs/hanger/badge.svg)](https://docs.rs/hanger)
 
 Call hooks before/after your functions.
 
@@ -11,7 +15,7 @@ hanger = "0.1"
 
 Add hooks to any functions.
 
-```
+```rust
 fn hello() { print!("hello") }
 
 #[hanger::hook(hello)]
